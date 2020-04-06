@@ -3,6 +3,16 @@
   to = "/*"
   status = 200
 
+[[redirects]]
+  from = "/"
+  to = "https://hellorusk.net/"
+  status = 200
+
+[[redirects]]
+  from = "/whoami"
+  to = "https://hellorusk.net/whoami"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
