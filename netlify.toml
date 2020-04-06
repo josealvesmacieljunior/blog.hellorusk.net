@@ -6,12 +6,12 @@
 [[redirects]]
   from = "/"
   to = "https://hellorusk.net/"
-  status = 200
+  status = 301
 
 [[redirects]]
   from = "/whoami"
   to = "https://hellorusk.net/whoami"
-  status = 200
+  status = 301
 
 [[headers]]
   for = "/*"
