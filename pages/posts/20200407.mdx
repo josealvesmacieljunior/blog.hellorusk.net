@@ -1,0 +1,26 @@
+import BlogLayout, { Iframely } from "../../layouts/blog-layout";
+import BlogMeta from "../../components/blog-meta";
+import ModeSwitch from "../../components/mode-switch";
+import LazyLoad from "react-lazyload";
+import { TwitterTweetEmbed } from "react-twitter-embed";
+
+export const meta = {
+  date: '2020-04-07',
+  title: 'ブログを移管します',
+  url: '/blog/2020/04/07',
+  description: '2020-04-07 の日記'
+}
+
+<ModeSwitch />
+
+# ブログを移管します
+#### 2020-04-07
+
+何かの手違いでこの `hellorusk.netlify.com` を開いてしまった方向けのお知らせ。
+
+このブログは https://hellorusk.net に移動しました。新しいサイトで記事をお楽しみくださいませ。
+
+
+
+<BlogLayout meta={meta} />
+<BlogMeta meta={meta} />
