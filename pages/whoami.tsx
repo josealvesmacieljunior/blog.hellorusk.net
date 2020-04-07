@@ -18,7 +18,7 @@ const Profile = () => (
     <br />
     何か御用ありましたら
     <a href="/form">フォーム</a>
-    または<a href="mailto:k@hellorusk.net">メール</a>から気軽にどうぞ。
+    または<a href="mailto:hellorusk1998@gmail.com">メール</a>から気軽にどうぞ。
   </div>
 );
 
@@ -75,7 +75,7 @@ export default () => (
       </Detail>
     </div>
     <div className="jump">
-      <Link href="/">
+      <Link href="https://hellorusk.net">
         <a>HOME</a>
       </Link>
     </div>

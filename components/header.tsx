@@ -11,7 +11,7 @@ export default () => (
       HelloRusk
       <br />
       <span>
-        <a href="mailto:k@hellorusk.net">k＠hellorusk.net</a>
+        <a href="mailto:hellorusk1998@gmail.com">k＠hellorusk.net</a>
       </span>
     </Bio>
   </Header>

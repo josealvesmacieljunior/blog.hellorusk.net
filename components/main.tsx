@@ -36,12 +36,12 @@ const renderInfo = (num: number) => {
     <About>
       <ul>
         <li>
-          <Link href="/whoami">
+          <Link href="https://hellorusk.net/fixed/profile">
             <a>Profile</a>
           </Link>
         </li>
         <li>
-          <Link href="/blog">
+          <Link href="https://hellorusk.net/blog">
             <a>Blog</a>
           </Link>
         </li>

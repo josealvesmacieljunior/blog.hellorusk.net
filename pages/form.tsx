@@ -46,7 +46,7 @@ export default () => (
     </FormContainer>
     <br />
     <div className="jump">
-      <a href="/">HOME</a>
+      <a href="https://hellorusk.net">HOME</a>
     </div>
     <Footer />
   </>
