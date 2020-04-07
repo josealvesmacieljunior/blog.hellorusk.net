@@ -47,6 +47,43 @@ module.exports = withBundleAnalyzer(
       }
 
       return pathMap;
+    },
+
+    experimental: {
+      redirects() {
+        return [
+          {
+            source: "/",
+            statusCode: 301,
+            destination: "https://hellorusk.net/"
+          },
+          {
+            source: "/whoami",
+            statusCode: 301,
+            destination: "https://hellorusk.net/fixed/profile"
+          },
+          {
+            source: "/whoami/",
+            statusCode: 301,
+            destination: "https://hellorusk.net/fixed/profile"
+          },
+          {
+            source: "/blog/",
+            statusCode: 301,
+            destination: "https://hellorusk.net/blog/"
+          },
+          {
+            source: "/blog/2020/04/07",
+            statusCode: 301,
+            destination: "https://hellorusk.net"
+          },
+          {
+            source: "/blog/:content*",
+            statusCode: 301,
+            destination: "https://hellorusk.net/blog/:content*"
+          }
+        ];
+      }
     }
   })
 );
