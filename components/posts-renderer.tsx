@@ -21,7 +21,7 @@ for (const date of postsDateList) {
     <div className="blog" key={meta.date}>
       <div className="date">{meta.date}</div>
       <div className="title">
-        <a href={normalizedUrl}>{meta.title}</a>
+        <a href={`https://hellorusk.net${normalizedUrl}`}>{meta.title}</a>
       </div>
     </div>
   );
