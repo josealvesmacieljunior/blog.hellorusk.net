@@ -2,6 +2,8 @@
 [![Dependency Status](https://img.shields.io/david/7ma7X/hellorusk.net.svg?style=flat)](https://img.shields.io/david/7ma7X/hellorusk.net.svg?style=flat)
 [![DevDpendency Status](https://img.shields.io/david/dev/7ma7X/hellorusk.net.svg?style=flat)](https://img.shields.io/david/dev/7ma7X/hellorusk.net.svg?style=flat)
 
+This is an older version of hellorusk.net (Moved to [https://hellorusk.netlify.com/](https://hellorusk.netlify.com/)).
+
 ```sh
 # serve as http://localhost:3000
 npm run dev
